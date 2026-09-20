@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5d9e4">
+  <meta name="description" content="A cinematic digital Nikkah invitation for Humera Sohail & Muhammad Zain Shaikh.">
+  <title>Zain & Humera — Nikkah Invitation</title>
+
+  <!-- Bootstrap is used only for responsive utilities/components. No JS framework is required. -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+	  
+	<link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+	
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="preloader" class="preloader">
+
+	  <!-- Floral corner decorations -->
+	  <div class="intro-floral intro-floral-top-left"></div>
+	  <div class="intro-floral intro-floral-top-right"></div>
+	  <div class="intro-floral intro-floral-bottom-left"></div>
+	  <div class="intro-floral intro-floral-bottom-right"></div>
+
+	  <div class="preloader-inner">
+
+	    <button
+	      id="openInvitation"
+	      class="preloader-ring"
+	      type="button"
+	      aria-label="Open wedding invitation">
+
+	      <span class="preloader-star">✦</span>
+
+	    </button>
+
+	    <p class="eyebrow preloader-open-text">
+	      CLICK TO OPEN
+	    </p>
+
+	    <h1>
+	      Zain <span>&amp;</span> Humera
+	    </h1>
+
+	    <div class="preloader-divider" aria-hidden="true">
+	      <span></span>
+	      <i>✦</i>
+	      <span></span>
+	    </div>
+
+	    <p class="preloader-sub">
+	      With love, duas &amp; the blessings of Allah
+	    </p>
+
+	  </div>
+	</div>
+
+  <div id="curtainStage" class="curtain-stage" aria-hidden="true">
+    <div class="curtain-panel curtain-left">
+      <div class="curtain-folds"></div>
+      <div class="curtain-edge-glow"></div>
+      <div class="curtain-tie">
+        <span class="rope"></span>
+        <span class="tassel">◆</span>
+      </div>
+    </div>
+    <div class="curtain-panel curtain-right">
+      <div class="curtain-folds"></div>
+      <div class="curtain-edge-glow"></div>
+      <div class="curtain-tie">
+        <span class="rope"></span>
+        <span class="tassel">◆</span>
+      </div>
+    </div>
+    <div class="curtain-vignette"></div>
+  </div>
+
+  <audio id="curtainAudio" preload="auto" src="assets/curtain-reveal.wav"></audio>
+
+  <button id="musicToggle" class="music-toggle" aria-label="Toggle ambient music">
+    <span class="music-bars"><i></i><i></i><i></i><i></i></span>
+  </button>
+
+  <main id="invitation" class="invitation locked">
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <div class="ornament ornament-left">❦</div>
+      <div class="ornament ornament-right">❦</div>
+
+      <div class="hero-floral floral-a">✿</div>
+      <div class="hero-floral floral-b">❀</div>
+      <div class="hero-floral floral-c">✾</div>
+      <div class="hero-floral floral-d">❁</div>
+
+      <div class="chandelier" aria-hidden="true">
+        <div class="ch-chain"></div><div class="ch-crown"></div>
+        <div class="ch-lamp l1"></div><div class="ch-lamp l2"></div><div class="ch-lamp l3"></div>
+        <div class="ch-lamp l4"></div><div class="ch-lamp l5"></div>
+      </div>
+
+      <div class="hero-copy reveal">
+        <p class="eyebrow">THE NIKKAH OF</p>
+        <h1 class="script-title">Muhammad Zain Shaikh</h1>
+        <div class="ampersand">&amp;</div>
+        <h2 class="script-title second">Humera Sohail</h2>
+        <div class="ring-mark"><span>◯</span><span>◯</span></div>
+        <p class="scroll-cue"><span></span> SCROLL DOWN <span></span></p>
+      </div>
+    </section>
+
+    <section class="paper-section intro section-pad" id="welcome">
+      <div class="container text-center">
+        <div class="arabic reveal">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</div>
+        <p class="translation reveal">IN THE NAME OF ALLAH, THE MOST GRACIOUS<br>THE MOST MERCIFUL</p>
+        <div class="gold-line reveal"></div>
+        <p class="body-copy reveal">
+          With the blessings of Almighty Allah,<br>
+          Together with their families, we cordially<br>
+          invite you to celebrate the Nikkah <br>
+          ceremony of
+        </p>
+      </div>
+    </section>
+
+    <section class="paper-section people section-pad">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow reveal">
+			  ✦ TWO SOULS, ONE JOURNEY ✦
+		  </p>
+          <h2 class="display-script reveal">
+			  Meet the Bride & Groom
+		  </h2>
+		  <p class="subtle reveal">
+			  Two hearts, one beautiful promise,
+			  and a lifetime of love ahead.
+		  </p>
+          <div class="section-divider reveal">
+			  ✦
+		  </div>
+        </div>
+        <div class="row g-4 justify-content-center">
+
+		
+<div class="people-grid couple-grid">
+
+  <article class="person-card couple-card reveal">
+
+    <div class="card-flower">❀</div>
+
+    <!-- Groom -->
+    <div class="couple-person">
+      <p class="eyebrow">THE GROOM</p>
+
+      <h3 class="script-name">
+        Muhammad Zain Shaikh
+      </h3>
+
+      <div class="card-rule"></div>
+
+      <p class="small-label">SON OF</p>
+      <h4>Mrs. &amp; Mr. Muhammad Amir Shaikh</h4>
+    </div>
+
+    <!-- Elegant Separator -->
+    <div class="couple-separator">
+      <span></span>
+      <strong>&amp;</strong>
+      <span></span>
+    </div>
+
+    <!-- Bride -->
+    <div class="couple-person">
+      <p class="eyebrow">THE BRIDE</p>
+
+      <h3 class="script-name">
+        Humera Sohail
+      </h3>
+
+      <div class="card-rule"></div>
+
+      <p class="small-label">DAUGHTER OF</p>
+      <h4>Mrs. &amp; Mr. Sohail Siddiqui</h4>
+    </div>
+
+  </article>
+
+</div>
+        </div>
+
+        <div class="hadith reveal">
+          <div class="hadith-mark">“</div>
+          <p class="arabic hadith-arabic">عَنْ ابْنِ عَبَّاسٍ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: لَمْ نَرَ لِلْمُتَحَابَّيْنِ مِثْلَ النِّكَاحِ</p>
+          <p>“We have not seen anything like marriage for those who love one another.”</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="date-section section-pad" id="date">
+      <div class="date-backdrop"></div>
+      <div class="container text-center position-relative">
+        
+
+		<p class="eyebrow reveal">A LITTLE SURPRISE</p>
+		<h2 class="display-script reveal">A Special Date Awaits</h2>
+		<p class="subtle reveal">
+		  Click below to reveal our wedding date
+		</p>
+
+		<div class="date-reveal-scene reveal">
+		  <button
+		    type="button"
+		    class="date-reveal-trigger"
+		    id="dateRevealTrigger"
+		    aria-controls="dateReveal"
+		    aria-expanded="false">
+
+		    <span class="date-trigger-icon">✦</span>
+		    <span class="date-trigger-text">
+		      CLICK TO REVEAL THE DATE
+		    </span>
+		    <span class="date-trigger-arrow">↓</span>
+
+		  </button>
+		</div>
+
+		<div
+		  id="dateReveal"
+		  class="date-reveal"
+		  aria-live="polite"
+		  aria-hidden="true">
+
+		  <div class="date-piece">
+		    <span>10th</span>
+		    <small>DAY</small>
+		  </div>
+
+		  <div class="date-piece">
+		    <span>October</span>
+		    <small>MONTH</small>
+		  </div>
+
+		  <div class="date-piece">
+		    <span>2026</span>
+		    <small>YEAR</small>
+		  </div>
+
+		</div>
+        <!-- <p class="eyebrow reveal">A LITTLE SURPRISE</p>
+        <h2 class="display-script reveal">Scratch all three circles</h2>
+        <p class="subtle reveal">Reveal the date</p>
+
+        <div class="scratch-scene reveal">
+          <div class="line-art">
+            <div class="person-art p1"></div><div class="person-art p2"></div>
+            <div class="person-art p3"></div><div class="person-art p4"></div>
+          </div>
+          <div class="scratch-row" id="scratchRow">
+            <button class="scratch-orb" data-reveal="10th" aria-label="Reveal day"><span>✦</span></button>
+            <button class="scratch-orb" data-reveal="October" aria-label="Reveal month"><span>✦</span></button>
+            <button class="scratch-orb" data-reveal="2026" aria-label="Reveal year"><span>✦</span></button>
+          </div>
+        </div>
+
+        <div id="dateReveal" class="date-reveal">
+          <div class="date-piece"><span>10th</span><small>DAY</small></div>
+          <div class="date-piece"><span>October</span><small>MONTH</small></div>
+          <div class="date-piece"><span>2026</span><small>YEAR</small></div>
+        </div>
+
+        <p class="save-date reveal">SAVE THE DATE</p>
+        <p class="numeric-date reveal">10 <span>·</span> 09 <span>·</span> 2026</p>
+		-->
+        <div class="countdown reveal" id="countdown">
+          <div><strong data-unit="days">00</strong><span>DAYS</span></div>
+          <div><strong data-unit="hours">00</strong><span>HOURS</span></div>
+          <div><strong data-unit="minutes">00</strong><span>MINUTES</span></div>
+          <div><strong data-unit="seconds">00</strong><span>SECS</span></div>
+        </div> 
+
+      </div>
+    </section>
+
+    <section class="events section-pad paper-section" id="events">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow reveal">✦ PROGRAM DETAILS ✦</p>
+          <h2 class="display-script reveal">
+		    Events & Venues
+		  </h2>
+		  <p class="subtle reveal">
+		    From heartfelt prayers to joyful celebrations,
+		    join us as we begin a beautiful new chapter together.
+		  </p>
+          <div class="section-divider reveal">
+		    ✦
+		  </div>
+        </div>
+
+        <article class="event-card reveal">
+          
+          <div class="event-art hall-art">
+            <div class="event-art hall-art farmhouse-hall-art">
+			  <div class="farmhouse-image-art reveal">
+			    <img
+			      src="assets/img/farm1_img.png"
+			      alt="Elegant garden farmhouse wedding venue"
+			      class="farmhouse-image"
+			      loading="lazy"
+			    />
+			  </div>
+			</div>
+          </div>
+
+          <div class="event-content">
+            <p class="eyebrow">✦ NIKKAH CEREMONY ✦</p>
+            <h3>Saturday, 10th October 2026</h3>
+            <p class="event-time">After Namaz-e-Asar</p>
+            <p class="event-time">05:00 PM</p>
+            <h4>Country Farm House</h4>
+            <p>7,8 Deh Mehran, near Malir Cantt Check Post No 3, Malir Cantonment, Near KN Academy</p>
+            <a class="map-link" target="_blank" rel="noopener" href="https://share.google/iX0RVZskHYBDmMJYU">View Location on Google Maps ↗</a>
+          </div>
+        </article>
+
+        <article class="event-card reverse reveal">
+          <div class="event-art hall-art">
+            <div class="event-art hall-art farmhouse-hall-art">
+			  <div class="farmhouse-image-art reveal">
+			    <img
+			      src="assets/img/farm2_img.png"
+			      alt="Elegant garden farmhouse wedding venue"
+			      class="farmhouse-image"
+			      loading="lazy"
+			    />
+			  </div>
+			</div>
+          </div>
+
+          <div class="event-content">
+            <div class="event-details">
+			  <p class="eyebrow reveal">✦ ♛ NIKAH CELEBRATION ♛ ✦</p>
+			  <h3 class="event-title reveal">
+			    An Evening of Love
+			  </h3>
+			  <div class="event-time reveal">
+			    <span class="event-label">HIGH TEA</span>
+			    <strong>06:00 PM</strong>
+			  </div>
+			  <div class="event-time reveal">
+			    <span class="event-label">DINNER</span>
+			    <strong>07:30 PM</strong>
+			  </div>
+			  <p class="event-note reveal">
+			    Join us for an evening filled with love,
+			    laughter, and cherished memories.
+			  </p>
+			</div>
+          </div>
+        </article>
+
+        <article class="event-card reveal"> 
+        	
+          <div class="event-art hall-art">
+            <div class="event-art hall-art farmhouse-hall-art">
+			  <div class="farmhouse-image-art reveal">
+			    <img
+			      src="assets/img/farm3_img.png"
+			      alt="Elegant garden farmhouse wedding venue"
+			      class="farmhouse-image"
+			      loading="lazy"
+			    />
+			  </div>
+			</div>
+          </div>
+
+          <div class="event-content">
+             <div class="event-details">
+				  <p class="eyebrow reveal">✦ QAWWALI NIGHT ✦</p>
+
+				  <h3 class="event-title reveal">
+				    An Evening of Soulful Melodies
+				  </h3>
+
+				  <div class="event-time reveal">
+				    <span class="event-label">QAWWALI</span>
+				    <strong>09:00 PM</strong>
+				  </div>
+
+				  <p class="event-note reveal">
+				    Let the night unfold with enchanting melodies,
+				    heartfelt rhythms, and moments of togetherness.
+				  </p>
+			 </div>
+             
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- <section class="rsvp-section section-pad" id="rsvp">
+      <div class="container text-center">
+        <div class="rsvp-frame reveal">
+          <p class="eyebrow">YOUR PRESENCE MEANS THE WORLD</p>
+          <h2 class="display-script">Will You Join Our Big Day?</h2>
+          <p>Join us as we step into our forever</p>
+          <div class="rsvp-actions">
+            <button class="rsvp-btn yes" data-rsvp="yes">I'll Be There <span>♥</span></button>
+            <button class="rsvp-btn no" data-rsvp="no">Will Miss It <span>😢</span></button>
+          </div>
+          <p id="rsvpMessage" class="rsvp-message"></p>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="compliments section-pad paper-section">
+      <div class="container text-center">
+        <p class="eyebrow reveal">✦ RSVP & FAMILY CONTACTS ✦</p>
+
+		<h2 class="display-script reveal">
+		  We Would Love to Hear From You
+		</h2>
+
+		<p class="subtle reveal">
+		  For confirmations, directions, or any questions,
+		  please feel free to contact our family.
+		</p>
+
+        <div class="rsvp-contacts">
+
+		  <div class="rsvp-card reveal">
+		    <h3>Muhammad Asif Shaikh</h3>
+
+		    <p class="contact-number">0313 0208170</p>
+
+		    <div class="contact-actions">
+		      <a href="tel:+923130208170" aria-label="Call Muhammad Asif Shaikh">
+		        <i class="fa-solid fa-phone"></i>
+		        Call
+		      </a>
+
+		      <a
+		        href="https://wa.me/923130208170"
+		        target="_blank"
+		        rel="noopener noreferrer"
+		        aria-label="WhatsApp Muhammad Asif Shaikh"
+		      >
+		        <i class="fa-brands fa-whatsapp"></i>
+		        WhatsApp
+		      </a>
+		    </div>
+		  </div>
+
+
+		  <div class="rsvp-card reveal">
+		    <h3>Muhammad Adil Shaikh</h3>
+
+		    <p class="contact-number">03130245831</p>
+
+		    <div class="contact-actions">
+		      <a href="tel:+9231302458310" aria-label="Call Muhammad Adil Shaikh">
+		        <i class="fa-solid fa-phone"></i>
+		        Call
+		      </a>
+
+		      <a
+		        href="https://wa.me/923130208170"
+		        target="_blank"
+		        rel="noopener noreferrer"
+		        aria-label="WhatsApp Muhammad Adil Shaikh"
+		      >
+		        <i class="fa-brands fa-whatsapp"></i>
+		        WhatsApp
+		      </a>
+		    </div>
+		  </div>
+
+
+		  <div class="rsvp-card reveal">
+		    <h3>Muhammad Asim Shaikh</h3>
+
+		    <p class="contact-number">0313 0208170</p>
+
+		    <div class="contact-actions">
+		      <!-- <a href="tel:+923130208170" aria-label="Call Muhammad Asim Shaikh">
+		        <i class="fa-solid fa-phone"></i>
+		        Call
+		      </a> -->
+
+		      <a
+		        href="https://wa.me/923130208170"
+		        target="_blank"
+		        rel="noopener noreferrer"
+		        aria-label="WhatsApp Muhammad Asim Shaikh"
+		      >
+		        <i class="fa-brands fa-whatsapp"></i>
+		        WhatsApp
+		      </a>
+		    </div>
+		  </div>
+
+		</div>
+
+
+
+      </div>
+    </section>
+
+    <section class="thankyou section-pad">
+      <div class="container text-center">
+        <p class="eyebrow reveal">✦ NEAT &amp; DEAR ✦</p>
+        <div class="envelope reveal">
+          <div class="envelope-back"></div>
+          <div class="envelope-flap"></div>
+          <div class="letter">
+            <span>Thank You</span>
+            <small>For your blessings &amp; love</small>
+          </div>
+        </div>
+        <p class="footer-handle reveal">@awesome_creation</p>
+        <p class="footer-small reveal">CONNECT FOR YOUR DIGITAL INVITATION</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
